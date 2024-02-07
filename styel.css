@@ -1,0 +1,575 @@
+:root {
+    --green-color : #2A0F61;
+    --bg-icon : #2A0F61;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+}
+
+/* Z-index */
+.navbar {
+    z-index: 3;
+}
+* {
+    z-index: 2;
+}
+
+.aksen-img {
+    z-index: 1;
+}
+.img-hero {
+    z-index: 1;
+}
+
+/* navbar color */
+.nav-color {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+}
+
+/* NAVBAR */
+.button-primary {
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    color: #2A0F61;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.button-secondary {
+    width: 133px;
+    height: 40px;
+    background-color: #8967B1;
+    color: #fff;
+    border: none;
+    border-radius: 50rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Hero Section */
+
+#hero {
+background: linear-gradient(0deg, rgba(255, 140, 156, 0.40) 7.93%, rgba(255, 161, 203, 0.40) 20.36%, rgba(255, 236, 174, 0.40) 112.97%);
+    height: 100vh;
+    width: 100%;
+}
+
+.img-hero {
+    height: 75%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+}
+
+.hero-tagline h1{
+    color: #2A0F61;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.hero-tagline p {
+    color: #F04F7F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.button-lg-primary {
+    width: 237px;
+    height: 70px;
+    background-color: #8967B1;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* Layanan Section */
+#layanan {
+    margin-bottom: 173px;
+}
+
+#layanan h2 {
+    color: #F04F7F;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.sub-title {
+    color: #2A0F61;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-layanan {
+    width: 100%;
+    height: 313px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.5);
+    transition: all ease-in-out .3s;
+}
+
+.circle-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #8967B1;
+    border-radius: 50%;
+}
+
+.card-layanan h3 {
+    color: #8967B1;
+    font-size: 24px;
+}
+
+.card-layanan p {
+    color: #8967B1;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Hover */
+
+.card-layanan:hover {
+    background: linear-gradient(90deg, #654EA3 0%, #EAAFC8 100%);
+    box-shadow: 0 0px 15px 03px rgba(0, 0, 0, 0.5);
+}
+
+.card-layanan:hover .circle-icon {
+    background-color: #fff;
+}
+
+.card-layanan:hover h3 {
+    color: #fff;
+}
+
+.card-layanan:hover p {
+    color: #fff;
+}
+
+/* Search */
+#search {
+    background: url(asset/image\ 22.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#search h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#search p {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input-cari{
+    height: 88px;
+}
+
+.input-cari .button-secondary {
+    width: 200px;
+    height: 88px;
+    background-color: rgba(225, 225, 225, 0.5);
+    color: #8967B1;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.input-cari .button-primary {
+    width: 135px;
+    height: 88px;
+    flex-shrink: 0;
+    background-color: #8967B1;
+    color: #fff;
+    border: none;
+    font-size: 36px;
+    border-radius: 0 10px 0 10px;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    background-color: rgba(225, 225, 225, 0.5);
+    color: #fff;
+    border: none;
+    border-radius: 0 0 0 0;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: rgba(225, 225, 225, 0.8);
+    color: #2A0F61;
+    font-weight: 500;
+    border-radius: 9px 0 0 0;
+}
+
+/* Remcommend Section */
+
+.recommend-title {
+    color: #F04F7F;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card {
+    height: 460px;
+    width: 95%;
+    border: none;
+    transition: all ease-in-out .3s;
+}
+
+
+
+.card-fasilitas {
+    background-color: #fff;
+    position: absolute;
+    right: 10px;
+    left: 10px;
+    bottom: 10px;
+    border-radius: 5px;
+}
+
+.card-fasilitas span {
+    font-weight: 500;
+    margin-top: 18px;
+    color: #000;
+}
+
+.card-fasilitas p {
+    font-size: 12px;
+}
+
+.card:hover {
+    background: linear-gradient(90deg, #654EA3 0%, #EAAFC8 100%);
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card-body h4 {
+    color: #fff;
+}
+
+.card:hover .card-body p {
+    color: #fff;
+}
+
+/* Fitur Section */
+
+#fitur h2{
+    color: #F04F7F;
+    font-size: 48px;
+}
+
+.button-fitur {
+    width: 238px;
+    height: 63px;
+    flex-shrink: 0;
+    background-color: #8967B1;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.card-fitur h5 {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.card-fitur span {
+    color: #fff;
+    font-size: 14px;
+}
+
+.card-fitur h6 {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card-fitur button {
+    background-color: #8967B1;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+}
+
+.card-fitur .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.card-fitur .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+
+.button-arrow-left {
+    border: none;
+    border-radius: 50%;
+    width: 61px;
+    height: 61px;
+    background-color: #654EA3;
+    padding: 0;
+}
+
+.button-arrow-right {
+    border: none;
+    border-radius: 50%;
+    width: 61px;
+    height: 61px;
+    background-color: #654EA3;
+    padding: 0;
+}
+
+/* contact section */
+
+#contact {
+    background-image: url(asset/image\ 25.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 158px;
+}
+
+#contact .overlay {
+    background: rgba(0, 0, 0, 0.40);
+}
+
+#contact .container {
+    padding: 148px 0 148px 0;
+}
+
+#contact h3 {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 441px;
+}
+
+#contact h6 {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.kontak a {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-decoration: none;
+    margin-left: 17px;
+    display: inline-block;
+}
+
+.card-contact {
+    background-color: #fff;
+    width: 100%;
+    height: 445px;
+    padding: 52px 48px;
+    border-radius: 5px;
+}
+
+.card-contact h2 {
+    color: #2A0F61;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.bg-color {
+    background: #C4C4C4;
+    border-radius: 0;
+    height: 75px !important; 
+}
+
+.form-floating .text-color {
+    color: #717171;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.button-kontak {
+    width: 100%;
+    height: 75px;
+    border: none;
+    background-color: #8967B1;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 270px;
+    background: #fff;
+}
+
+footer a {
+    color: #2A0F61;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #2A0F61;
+    font-size: 14px;
+    bottom: 1%;
+}
+
+/* break points */
+
+@media screen and (max-width : 922px) {
+    .hero-tagline h1 {
+        line-height: 48px;
+    }
+
+    .hero-tagline p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .card-layanan h3 {
+        font-size: 21px;
+    }
+    
+    .card-layanan p {
+        font-size: 11px;
+    }
+
+    .input-cari .button-secondary {
+        width: 120px;
+        font-size: 14px;
+        border: 0;
+    }
+
+    .input-cari .button-primary {
+        font-size: 24px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .button-fitur {
+        width: 100%;
+    }
+
+    #contact h3 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .card-contact {
+        width: 100%;
+        height: auto;
+    }
+    
+    .card-contact h2 {
+        font-size: 32px;
+        line-height: normal;
+    }
+}
+
+@media screen and (max-width : 576px) {
+
+    .img-hero {
+        width: 75%;
+        height: auto;
+    }
+
+    .hero-tagline h1 {
+        line-height: 52px;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    .sub-title {
+        font-size: 16px;
+    }
+
+    .card-layanan {
+        margin: 15px 0 15px 0;
+    }
+
+    #search h2 {
+        font-size: 42px;
+        line-height: 52px;
+    }
+
+    #search p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .input-cari .button-secondary {
+        height: 60px;
+        width: 50%;
+        border-radius: 0;
+    }
+
+    .input-cari .button-primary {
+        height: 60px;
+        width: 30%;
+        font-size: 20px;
+        border-radius: 0;
+    }
+
+    .input-cari .form-control {
+        height: 60px;
+    }
+}
+
+@media screen and (max-width : 350px) {
+    
+}

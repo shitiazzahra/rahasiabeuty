@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css"/>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="styel.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>Login Form | MrDeveloper</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark nav-color position-fixed w-100">
+        <div class="container ">
+          <a class="navbar-brand" href="#">
+            <img src="asset/logo.png" alt="Bootstrap" width="185">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#" style="color: #2A0F61;">BERANDA</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#" style="color: #2A0F61;">LAYANAN</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#" style="color: #2A0F61;">FITUR</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" aria-disabled="true" style="color: #2A0F61;">KONTAK</a>
+              </li>
+            </ul>
+            <div>
+              <a href="index.html"><button class="button-secondary">Back</button></a>
+            </div>
+          </div>
+          
+
+        </div>
+      </nav>
+
+    <div class="login">
+        <img src="asset/login page.png" alt="login-image" class="login-image">
+
+        <form class="login-form">
+            <h1 class="login-title">Login</h1>
+
+            <div class="login-content">
+                <div class="login-box">
+                    <i class="ri-user-3-line login-icon"></i>
+                    <div class="login-box-input">
+                        <input type="email" class="login-input" id="login-email" required placeholder=" ">
+                        <label for="login-email" class="login-label">Email</label>
+                    </div>
+                </div>
+                <div class="login-box">
+                    <i class="ri-lock-2-line login-icon"></i>
+                    <div class="login-box-input">
+                        <input type="password" class="login-input" id="login-pass" required placeholder=" ">
+                        <label for="login-pass" class="login-label">Password</label>
+                        <i class="ri-eye-off-line login-eye" id="login-eye"></i>
+                        <!-- <i class="ri-eye-line"></i> -->
+                    </div>
+                </div>
+            </div>
+            <div class="login-check">
+                <div class="login-check-group">
+                    <input type="checkbox" class="login-check-input" class="login-check">
+                    <label for="login-check" class="login-check-label">Remember Me</label>
+                </div>
+                <a href="#" class="login-forget">Forget Password?</a>
+            </div>
+            <button type="submit" class="login-button">Login</button>
+            <p class="login-register">
+                Don't have an account? <a href="#">Register</a>
+            </p>
+        </form>
+    </div>
+
+    <!-- footer -->
+    <footer class="d-flex align-items-center position-relative">
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 d-flex align-items-center justify-content-md-start justify-content-center mb-3">
+                <img src="asset/logo.png" alt="" width="185">
+              </div>
+              <div class="col-md-5 d-flex justify-content-evenly">
+                <a href="">Beranda</a>
+                <a href="">Fitur</a>
+                <a href="">Layanan</a>
+                <a href="">Kontak</a>
+              </div>
+            </div>
+  
+            <div class="row copyright position-absolute start-50 translate-middle">
+              <div class="col-12">
+                <p class="text-center">Copyright bg Creative Academy All Right Reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+<script src="login.js"></script>
+</html>

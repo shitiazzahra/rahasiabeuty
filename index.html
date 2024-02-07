@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rumah Impian</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="asset/logo-R.png" type="image/x-icon">
+
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="styel.css"/>
+ 
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed w-100">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="asset/logo.png" alt="Bootstrap" width="185">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#" style="color: #2A0F61;">BERANDA</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#" style="color: #2A0F61;">LAYANAN</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#" style="color: #2A0F61;">FITUR</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" aria-disabled="true" style="color: #2A0F61;">KONTAK</a>
+              </li>
+            </ul>
+            <div>
+              <a href="login.html"><button class="button-primary">Daftar</button></a>
+              <a href="login.html"><button class="button-secondary">Masuk</button></a>
+            </div>
+          </div>
+          
+
+        </div>
+      </nav>
+
+<!-- Hero Section -->
+    <section id="hero">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-md-6 hero-tagline my-auto">
+                    <h1>Rahasia Beauty, Beauty Is Healing </h1>
+                    <p><span class="fw-bold">The Journey</span> of "Rahasia Naura" start here, 4 pilihan warna soft yang cantik dan mengandung mosturizer pada lips nya</p>
+                    <button class="button-lg-primary">See Details</button>
+                </div>
+            </div>
+        </div>
+        <img src="asset/image-hero.png" alt="home" class="img-hero position-absolute end-0 bottom-0">
+        </section>
+
+<!-- Layanan Secton -->
+    <section id="layanan">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <h2>Our Product</h2>
+                    <span class="sub-title">Berbagai warna cantik yang bisa kamu dapat</span>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-4 text-center">
+                    <div class="card-layanan">
+                        <div class="circle-icon position-relative mx-auto">
+                            <img src="asset/bundle-1.png" alt="" class="position-absolute top-50 start-50 translate-middle">
+                        </div>
+                        <h3 class="mt-4">1 Bundle</h3>
+                        <p class="mt-3">Untuk varian "1 bundle" kalian bisa memilih satu lip tint yang kalian paling suka</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="card-layanan">
+                        <div class="circle-icon position-relative mx-auto">
+                            <img src="asset/bundle-2.png" alt="" class="position-absolute top-50 start-50 translate-middle">
+                        </div>
+                        <h3 class="mt-4">2 Bundle</h3>
+                        <p class="mt-3">Untuk varian "2 bundle" kalian bisa memilih 2 lip tint yang kalian paling suka</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="card-layanan">
+                        <div class="circle-icon position-relative mx-auto">
+                            <img src="asset/bundle-3.png" alt="" class="position-absolute top-50 start-50 translate-middle">
+                        </div>
+                        <h3 class="mt-4">3 Bundle</h3>
+                        <p class="mt-3">Untuk varian "3 bundle" kalian bisa memilih tiga lip tint yang kalian paling suka</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section id="search" class="d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2>Temukan Produk Impianmu</h2>
+            <p>sekarang Anda lebih mudah mendapatkan warna Lip atau Blush yang soft dan juga tidak mudah retak pada bibir</p>
+          </div>
+        </div>
+        
+        <div class="col-10 mt-5 mx-auto">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#jual" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Jual</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#sewa" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Sewa</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#properti-baru" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Properti baru</button>
+            </li>
+            
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="jual" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+              <div class="input-cari input-group mb-3">
+              <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="asset/icon-lips.png" alt="icon lip" class="d-block d-lg-inline mx-auto">Lip Oil Tint</button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+
+              <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="asset/icon-blush.png" alt="icon blush" class="d-block d-lg-inline mx-auto">Liquid Blush</button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+              <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="cari berdasarkam lokasi, ID, Property">
+              <button class="button-primary">Cari</button>
+            </div>
+          </div>
+
+
+            <div class="tab-pane fade" id="sewa" role="tabpanel" aria-labelledby="profile-tab" tabindex="0"><div class="input-cari input-group mb-3">
+              <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="asset/icon-lips.png" alt="icon lip" class="d-block d-lg-inline mx-auto">Lip Oil Tint</button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+
+              <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="asset/icon-blush.png" alt="icon blush" class="d-block d-lg-inline mx-auto">Liquid Blush</button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+              <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="cari berdasarkam lokasi, ID, Property">
+              <button class="button-primary">Cari</button>
+            </div>
+          </div>
+            <div class="tab-pane fade" id="properti-baru" role="tabpanel" aria-labelledby="contact-tab" tabindex="0"><div class="input-cari input-group mb-3">
+              <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="asset/icon-lips.png" alt="icon lip" class="d-block d-lg-inline mx-auto">Lip Oil Tint</button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+
+              <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" ><img src="asset/icon-blush.png" alt="icon blush" class="d-block d-lg-inline mx-auto">Liquid Blush</button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+              <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="cari berdasarkam lokasi, ID, Property">
+              <button class="button-primary">Cari</button>
+            </div>
+          </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Recommend Section -->
+    <section id="rekomendasi">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="recommend-title col-12 text-center mb-3">
+            <h2>Rekomendasi Rumah Untuk Mu</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div class="card p-2" style="width: 22rem;">
+              <img src="asset/image 23.png" alt="">
+              
+              <div class="card-fasilitas d-flex justify-content-between px-4">
+                <span>
+                  <img src="asset/bed-icon.png" alt=""> 3
+                  <p>Kamar Tidur</p>
+                </span>
+                <span>
+                  <img src="asset/bath-icon.png" alt=""> 5
+                  <p>Kamar Mandi</p>
+                </span>
+                <span>
+                  <img src="asset/globe-icon.png" alt=""> 360m
+                  <p>Luas Bangunan</p>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div class="card p-2" style="width: 22rem;">
+              <img src="asset/image 54.png" alt="">
+              
+              <div class="card-fasilitas d-flex justify-content-between px-4">
+                <span>
+                  <img src="asset/bed-icon.png" alt=""> 3
+                  <p>Kamar Tidur</p>
+                </span>
+                <span>
+                  <img src="asset/bath-icon.png" alt=""> 5
+                  <p>Kamar Mandi</p>
+                </span>
+                <span>
+                  <img src="asset/globe-icon.png" alt=""> 360m
+                  <p>Luas Bangunan</p>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div class="card p-2" style="width: 22rem;">
+              <img src="asset/image 58.png" alt="">
+              
+              <div class="card-fasilitas d-flex justify-content-between px-4">
+                <span>
+                  <img src="asset/bed-icon.png" alt=""> 3
+                  <p>Kamar Tidur</p>
+                </span>
+                <span>
+                  <img src="asset/bath-icon.png" alt=""> 5
+                  <p>Kamar Mandi</p>
+                </span>
+                <span>
+                  <img src="asset/globe-icon.png" alt=""> 360m
+                  <p>Luas Bangunan</p>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div class="card p-2" style="width: 22rem;">
+              <img src="asset/image 26.png" alt="">
+           
+              <div class="card-fasilitas d-flex justify-content-between px-4">
+                <span>
+                  <img src="asset/bed-icon.png" alt=""> 3
+                  <p>Kamar Tidur</p>
+                </span>
+                <span>
+                  <img src="asset/bath-icon.png" alt=""> 5
+                  <p>Kamar Mandi</p>
+                </span>
+                <span>
+                  <img src="asset/globe-icon.png" alt=""> 360m
+                  <p>Luas Bangunan</p>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div class="card p-2" style="width: 22rem;">
+              <img src="asset/image 55.png" alt="">
+              
+              <div class="card-fasilitas d-flex justify-content-between px-4">
+                <span>
+                  <img src="asset/bed-icon.png" alt=""> 3
+                  <p>Kamar Tidur</p>
+                </span>
+                <span>
+                  <img src="asset/bath-icon.png" alt=""> 5
+                  <p>Kamar Mandi</p>
+                </span>
+                <span>
+                  <img src="asset/globe-icon.png" alt=""> 360m
+                  <p>Luas Bangunan</p>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div class="card p-2" style="width: 22rem;">
+              <img src="asset/image 46.png" alt="">
+             
+              <div class="card-fasilitas d-flex justify-content-between px-4">
+                <span>
+                  <img src="asset/bed-icon.png" alt=""> 3
+                  <p>Kamar Tidur</p>
+                </span>
+                <span>
+                  <img src="asset/bath-icon.png" alt=""> 5
+                  <p>Kamar Mandi</p>
+                </span>
+                <span>
+                  <img src="asset/globe-icon.png" alt=""> 360m
+                  <p>Luas Bangunan</p>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Fitur Section -->
+    <section class="mt-5 overflow-hidden" id="fitur">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-9 col-md-12 text-center text-lg-start">
+            <h2>Product</h2>
+          </div>
+          <div class="col-lg-3 col-md-12">
+            <button class="button-fitur">See Details</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-start">
+
+            <div class="card-fitur position-relative me-3">
+              <img src="asset/image 56.png" width="440" alt="">
+              <div class="overlay position-absolute top-0 bottom-0 end-0 start-0">
+                <div class="position-absolute top-50 start-50 text-center translate-middle w-100">
+                  <h5>Lip Cara</h5>
+                  <span>with maskara new product</span>
+                  <h6>IDR.289rb</h6>
+                  <button>See Details</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-fitur position-relative me-3">
+              <img src="asset/image 36.png" width="440" alt="">
+              <div class="overlay position-absolute top-0 bottom-0 end-0 start-0">
+                <div class="position-absolute top-50 start-50 text-center translate-middle w-100">
+                  <h5>Liquid Blush</h5>
+                  <span>warna cantik yang stay</span>
+                  <h6>IDR.110rb</h6>
+                  <button>See Details</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-fitur position-relative me-3">
+              <img src="asset/image 35.png" width="440" alt="">
+              <div class="overlay position-absolute top-0 bottom-0 end-0 start-0">
+                <div class="position-absolute top-50 start-50 text-center translate-middle w-100">
+                  <h5>Lip Tint Oil</h5>
+                  <span>mengandung pelembab pada lip nya</span>
+                  <h6>IDR.98rb</h6>
+                  <button>See Details</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-fitur position-relative me-3">
+              <img src="asset/image 57.png" width="440" alt="">
+              <div class="overlay position-absolute top-0 bottom-0 end-0 start-0">
+                <div class="position-absolute top-50 start-50 text-center translate-middle w-100">
+                  <h5>Blush Cara</h5>
+                  <span>Blush Liquid dengan mascara</span>
+                  <h6>IDR.158rb</h6>
+                  <button>See Details</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <button class="button-arrow-left position-absolute start-0 top-50 translate-middle-y">
+          <img src="asset/left-arrow.png" alt="">
+        </button>
+        <button class="button-arrow-right position-absolute end-0 top-50 translate-middle-y">
+          <img src="asset/right-arrow.png" alt="">
+        </button>
+      </div>
+
+    </section>
+
+    <!-- contact section -->
+    <section id="contact">
+      <div class="container-fluid overlay h-100">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-md-6">
+              <h3>Butuh Konsultasi..? Silahkan kontak kami Kami Siap Membantu</h3>
+              <div class="kontak">
+                <h6>Kontak</h6>
+
+                <div class="mb-3">
+                  <img src="asset/addres-icon.png" alt="">
+                  <a href="">Jl. Pelajar Pejuang 123 Majalaya Bandung Indonesia</a>
+                </div>
+
+                <div class="mb-3">
+                  <img src="asset/tlp-icon.png" alt="">
+                  <a href="">022-6545-2041</a>
+                </div>
+
+                <div class="mb-3">
+                  <img src="asset/email-icon.png" alt="">
+                  <a href="">rumahimpian@gmail.com</a>
+                </div>
+
+              </div>
+              <h6>Social Media</h6>
+              <a href="" class="me-3"><img src="asset/facebook.png" alt=""></a>
+              <a href="" class="me-3"><img src="asset/twitter.png" alt=""></a>
+              <a href="" class="me-3"><img src="asset/instagram.png" alt=""></a>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card-contact w-100">
+                <form>
+                  <h2>Ada pertanyaan..?</h2>
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control bg-color" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput" class="text-color">Email address</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control bg-color" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput" class="text-color">Email address</label>
+                  </div>
+                  <button class="button-kontak">Kirim</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="d-flex align-items-center position-relative">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 d-flex align-items-center justify-content-md-start justify-content-center mb-3">
+              <img src="asset/logo.png" alt="" width="185">
+            </div>
+            <div class="col-md-5 d-flex justify-content-evenly">
+              <a href="">Beranda</a>
+              <a href="">Fitur</a>
+              <a href="">Layanan</a>
+              <a href="">Kontak</a>
+            </div>
+          </div>
+
+          <div class="row copyright position-absolute start-50 translate-middle">
+            <div class="col-12">
+              <p class="text-center">Copyright bg Creative Academy All Right Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="my-script/script.js"></script>
+  </body>
+</html>
